@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/antiquewhite2_background"
+    tools:context=".aboutus">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Puskesmas Pakuan Baru "
+            android:textAllCaps="true"
+            android:textSize="30sp"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_marginTop="30sp"
+            android:layout_marginBottom="30sp"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/mage_2019_12_09_at_19_40_15"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:text="Merupakan salah satu tempat pelayanan\nkesehatan masyarakat di kota jambi."
+            style="@style/ForTextStyle"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:text="Puskesmas pakuan baru ini juga merupakan\npuskesmas terbesar di kota jambi."
+            style="@style/ForTextStyle"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:text="Puskesmas yang memiliki layanan IGD\nsehingga tidak hanya melayani pasien\nrawat jalan saja."
+            style="@style/ForTextStyle"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="MainActivity"
+            android:text="back"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="220dp"/>
+    </LinearLayout>
+</ScrollView>
